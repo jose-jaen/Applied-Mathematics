@@ -1,2 +1,3 @@
-# Applied-Mathematics
-Mathematical algorithms for Data Analytics
+# Applied Mathematics
+
+Mathematical algorithms explained alongside Python and MATLAB implementations.
