@@ -6,6 +6,14 @@ Part of Hong Kong University of Science and Technology's *Mathematics for Engine
 
 # Applied Mathematics cases document
 
+- Bifurcation of Logistic Map
+
+- Computation of Feigenbaum Delta
+
+- Fractals from Lorenz Equations
+
+- Zeros of Bessel Functions
+
 - [Paper](https://github.com/jose-jaen/Applied-Mathematics/blob/main/Applied_Mathematics.pdf)
 
 #  Numerical Methods Algorithms
