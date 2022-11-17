@@ -14,6 +14,8 @@ Part of Hong Kong University of Science and Technology's *Mathematics for Engine
 
 - Zeros of Bessel Functions
 
+- Two-body Problem
+
 - [Paper](https://github.com/jose-jaen/Applied-Mathematics/blob/main/Applied_Mathematics.pdf)
 
 #  Numerical Methods Algorithms
