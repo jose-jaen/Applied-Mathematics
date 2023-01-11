@@ -6,8 +6,8 @@ from scipy.integrate import odeint
 # Define parameters for mass and eccentricity
 e, m1, m2 = 0.7, 1, 4
 
-# Establish period 
-T = np.divide(2*pi, np.power((1-e), 1.5))
+# Establish period
+T = 2*pi/(1 - e)**1.5
 tspan = np.linspace(0, T, 1000)
 initial = [-1, 0, 0, np.sqrt(1 + e)]
 
@@ -17,9 +17,10 @@ def two_body_eq(xyuv, t):
     u, v = xyuv[2], xyuv[3]
     r = np.sqrt(x**2 + y**2)
     d_xyuv_dt = np.array([
-        [u], [v],
-        [np.divide(-x, r**3)],
-        [np.divide(-y, r**3)]])
+        u, v,
+        -x/r** 3,
+        -y/r** 3
+    ])
     return d_xyuv_dt
 
 # Solution to ODE
